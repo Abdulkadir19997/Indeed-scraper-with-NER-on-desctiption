@@ -1,4 +1,4 @@
-# TripAdvisor & Google Search Scraper
+# Indeed scraper & Data extraction from description using NLP
 
 ## Overview
 This project is a web scraping tool designed to extract Specific data from job vacancy leads from the Indeed UK for Private Client Solicitor vacancies and extract data such as Name, Surname and email from the description using the NER NLP technique. Utilizing a blend of powerful web scraping libraries such as Selenium, Requests, BeautifulSoup, and Spacy this tools delivers accurate and efficient data extraction for specific regions.
