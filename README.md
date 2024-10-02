@@ -4,8 +4,8 @@
 This project is a web scraping tool designed to extract Specific data from job vacancy leads from the Indeed UK for Private Client Solicitor vacancies and extract data such as Name, Surname and email from the description using the NER NLP technique. Utilizing a blend of powerful web scraping libraries such as Selenium, Requests, BeautifulSoup, and Spacy this tools delivers accurate and efficient data extraction for specific regions.
 
 ## Features
-- **TripAdvisor Scraper**: Efficiently scrapes data about the best restaurants in specified regions from TripAdvisor.
-- **Google Search Verification**: Checks whether the scraped data appears in Google Search results, providing an additional layer of verification and utility.
+- **scrap_indeed**: Efficiently scrapes data depending on the specified elements from the job posts in the indeed platform.
+- **description_data_extraction.py**: Take the scraped job description Text data and extracts the Name, Surname, Email, and PQE if found, if not found it stays as None.
 
 ## Technologies
 - **Selenium**: Automates web browsers, providing the backbone for real-time data scraping and interaction.
